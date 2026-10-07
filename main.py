@@ -71,7 +71,7 @@ def handle_photo(message):
         base64_image = encode_image(downloaded_file)
 
         completion = client.chat.completions.create(
-            model="llama-3.2-11b-vision-preview",
+            model="llama-3.2-90b-vision-preview",
             messages=[
                 {
                     "role": "user",
